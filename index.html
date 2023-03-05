@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+      <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>2023 Student Survey</title>
+      <link rel="stylesheet" href="./style.css">
+  </head>
+    
+  <body>
+    <header>
+      <!--Navigation Menu-->
+      <nav class="ccsticky-nav">
+        <a href="#top">Home</a>
+        <a href="#questions">Questions</a>
+        <a href="#studentinfo">Send Us A Message</a>
+      </nav>
+        <figure>
+          <img src="school pic.png" alt="School house with a bell" id="top">
+          <figcaption id="imgcap">A school house with bell.</figcaption>
+        </figure>
+          <h1 id="title">2023 Student Survey</h1>
+          <h3>Please complete each element by filling in the blank.</h3>
+    </header>
+      <!--Ordered Question List-->
+    <main>
+      <form>
+        <fieldset class="questions" id="questions">
+          <legend><strong>Questions</strong></legend>
+          <ol>
+            <li>
+              <label for="school">What school do you attend?</label>
+              <input type="text" class="resizedtextbox" name="school">                          
+            </li>
+            <li>
+              <label for="grade">What grade are you in?</label>
+              <input type="text" class="resizedtextbox" name="grade">
+            </li>              
+            <li>
+              <label for="subject">What is your favorite subject?</label>  
+              <input type="text" class="resizedtextbox" name="subject">                         
+            </li>               
+            <li>
+              <label for="sport">What is your favorite sport?</label>
+              <input type="text" class="resizedtextbox" name="sport">                           
+            </li>               
+            <li>
+              <label for="hobby">What is your favorite hobby?</label>
+              <input type="text" class="resizedtextbox" name="hobby">                         
+            </li>               
+            <li>
+              <label for="music">What is your favorite music genre?</label>
+              <input type="text" class="resizedtextbox" name="music">                          
+            </li>                
+            <li>
+              <label for="learn">What would you like to learn about?</label>
+              <input type="text" class="resizedlargetextbox" name="learn">                          
+            </li>               
+            <li>
+              <label for="time">How much time do you spend on homework each night?</label>
+              <input type="text" class="resizedtextbox" name="subject">                         
+            </li>                
+            <li>
+              <label for="menjoy">What do you enjoy most about school?</label>
+              <input type="text" class="resizedlargetextbox" name="menjoy">                          
+            </li>              
+            <li>
+              <label for="lenjoy">What do you enjoy least about school?</label>
+              <input type="text" class="resizedlargetextbox" name="lenjoy">                         
+            </li>              
+            <li>
+              <label for="improve">What can we improve on?</label>
+              <input type="text" class="resizedlargetextbox" name="improve">                   
+            </li>
+          </ol>
+          <div>
+            <button type="submit" value="survey results">Submit</button></div>
+        </fieldset>
+      </form>
+    </main>
+
+    <footer>
+    <!--Student Contact Informtion-->
+    <h3>More thoughts or suggestions? Let us know what you think!</h3>
+    <fieldset class="studentinfo" id="studentinfo">
+      <legend><strong>Student Contact Information</strong></legend>
+        <p>
+          <label for="fname">First Name:</label>
+          <input type="text" class="resizedtextbox" name="fname">
+        <p>
+          <label for="lname">Last Name:</label>
+          <input type="text" class="resizedtextbox" name="lname">
+        <p>
+          <label for="phone">Phone Number:</label>
+          <input type="text" class="resizedtextbox" name="phone"><em>(Optional)</em>
+        <p>
+          <label for="email">Email:</label>
+          <input type="text" class="resizedtextbox" name="email">
+        <p>
+          <label for="message">Message:</label>
+          <input type="text" class="resizedlargetextbox" name="message">
+        <div>
+          <button type="submit" value="send request">Send</button></div>
+    </fieldset>
+    </footer>
+  </body>
+</html>

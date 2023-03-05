@@ -1,0 +1,56 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+figure {
+    text-align: center;
+}
+
+#imgcap {
+    text-align: center;
+}
+
+.ccsticky-nav {
+    width: 100%;
+    height: 40px; 
+    position: fixed; 
+    top: 0;
+    background: rgb(36, 115, 160);
+    display: inline;
+}
+
+a:hover {
+    background-color: white ;
+}
+
+/*header*/
+#title {
+    text-align: center;
+}
+
+li {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+/*small text boxes*/
+.resizedtextbox {
+    width: 300px;
+    height: 20px;
+}
+
+/*larger text boxes*/
+.resizedlargetextbox {
+    width: 700px;
+    height: 60px;
+}
+
+.questions {
+    background-color: lightblue;
+    border: 5px solid black;
+}
+
+.studentinfo {
+    background-color: darkorange;
+    border: 5px solid black;
+}
